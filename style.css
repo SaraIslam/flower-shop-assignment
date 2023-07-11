@@ -22,7 +22,8 @@
 .flower_con{
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
+    justify-content: center;
 }
 .title_text,.title_text1{
     text-align: center;
@@ -78,7 +79,7 @@ header{
 
 /* body part css */
 section{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 .flower{
     text-align: center;
@@ -146,7 +147,7 @@ section{
 }
 /* footer part css */
 footer{
-    margin-top: 60px;
+    margin-top: 80px;
     background: #111010;
     padding: 50px;
 }
