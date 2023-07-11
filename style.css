@@ -7,35 +7,137 @@
     margin: 0;
     padding: 0;
 }
+.alignment {
+    width: 80%;
+    margin: auto;
+  }
 .flower_btn{
     text-decoration: none;
     color: white;
+    background-color: #E55473;
     border-radius: 5px;
-    background: #E55473;
-    padding: 10px 35px;
+    padding: 10px 20px;
+
+}
+.flower_con{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.title_text{
+    text-align: center;
+    font-weight: 600px;
+    padding-bottom: 20px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 800;
+}
+.title_description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.color_text{
+    color: #E55473;
 }
 /* header part css */
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
 .intro{
-    padding: 50px;
-    background-color: rgba(229, 84, 115, 0.10);
-    background-image: url('Flower Asset/pngwing 10.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: contain;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.intro_con{
+    padding-top: 8%;
+}
+.intro_con h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.intro_con p{
+    padding:2% 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.image{
+    height: 400px;
+    width: 300px;
+}
+
+/* body part css */
+section{
+    margin-top: 60px;
+}
+.flower{
+    text-align: center;
+}
+.inner_sub{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 300px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-bottom: 30px;
+}
+
+.flower_name{
+    text-decoration: none;
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
     
 }
-.intro h1{
-    font-weight:900;
+.deal_section{
+    background: rgba(229, 84, 115, 0.05);
+   
 }
-.intro p{
-width: 43%;
-margin-top: 20px;
-color: rgba(39, 39, 39, 0.60);
-font-size: 15px;
-font-weight: 300;
-line-height: 20px;
-margin-bottom: 30px;
+.deal{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
 }
-/* body part css */
-
+.deal_con{
+    padding-top: 170px;
+    text-align: center;
+    align-items: center;
+}
+.image1{
+    height: 300px;
+    width: 235px;
+    box-shadow: 1px 0px 10px 0px rgb(235, 231, 231);
+}
+.details{
+    background-image: url('Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 60px 0;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+}
+.email{
+    border: none;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
 /* footer part css */
