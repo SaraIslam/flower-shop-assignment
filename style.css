@@ -24,21 +24,25 @@
     display: flex;
     justify-content: space-between;
 }
-.title_text{
+.title_text,.title_text1{
     text-align: center;
     font-weight: 600px;
     padding-bottom: 20px;
-    color: #272727;
     font-family: Lato;
     font-size: 25px;
     font-weight: 800;
 }
-.title_description{
-    color: rgba(39, 39, 39, 0.60);
+.title_text{
+    color: #272727;
+}
+.title_description,.title_description1,.title_description2{
     text-align: center;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
+}
+.title_description{
+    color: rgba(39, 39, 39, 0.60);
 }
 .color_text{
     color: #E55473;
@@ -141,3 +145,20 @@ section{
     padding-left: 15px;
 }
 /* footer part css */
+footer{
+    margin-top: 60px;
+    background: #111010;
+    padding: 50px;
+}
+.footer_con{
+    text-align: center;
+}
+.title_text1{
+    color: white;
+}
+.title_description1{
+    color: white;
+}
+.title_description2{
+    color: rgba(255, 255, 255, 0.40);
+}
