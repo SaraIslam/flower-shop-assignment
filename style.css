@@ -81,8 +81,19 @@ header{
 section{
     margin-top: 80px;
 }
-.flower{
+.flower,.flower1{
     text-align: center;
+}
+.flower1{
+    width: 33.33%;
+}
+.flower1:hover{
+    transform: scale(1.1);
+    transition: .7s linear;
+}
+.flower1:not(hover){
+    transform: scale(1);
+    transition: .7s linear;
 }
 .inner_sub{
     padding-top: 40px;
@@ -94,7 +105,12 @@ section{
     background: rgba(167, 33, 98, 0.15);
     margin-bottom: 30px;
 }
-
+.inner_sub1{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px 300px 300px 300px;
+    
+}
 .flower_name{
     text-decoration: none;
     color: #272727;
@@ -162,7 +178,7 @@ section{
 footer{
     margin-top: 80px;
     background: #111010;
-    padding: 50px;
+    padding: 80px 0px;
 }
 .footer_con{
     text-align: center;
