@@ -49,7 +49,38 @@
     color: #E55473;
 }
 /* header part css */
-header{
+.header1{
+    background-color: #E55473;
+    color: white;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    z-index:2;
+    margin-top: 0;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content:center ;
+
+}
+.menu li {
+    position: relative;
+  }
+.menuitem:hover{
+    text-decoration: underline;
+  
+  }
+.menuitem{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px;
+
+}
+.header2{
+    padding-top: 40px;
     background: rgba(229, 84, 115, 0.10);
 }
 .intro{
