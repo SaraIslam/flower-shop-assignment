@@ -105,6 +105,19 @@ section{
     text-decoration-line: underline;
     
 }
+.info_con{
+    border-radius: px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+    text-align: center;
+}
+.info_des{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+
+}
 .deal_section{
     background: rgba(229, 84, 115, 0.05);
    
